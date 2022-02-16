@@ -13,24 +13,22 @@
         color: var(--secondary-color);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-   
+   /*HEADER*/
     header{
         display: flex;
-        padding: 100px 35px 10px 35px;
-        background-color: var(--tertiary-color);
+        padding: 100px 35px 15px 35px;
+        background-color: var(--primary-color);
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         flex-wrap: wrap;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        position: -webkit-sticky;
-        position: sticky;
+        position: relative;
         top: 0;
         background-image: url("assets/afternoon-light.jpg");
+        border-radius: 300px;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        background-position: 80%;
+        background-position: 0%;
         z-index: 9999;
     }
     header h1{
@@ -39,11 +37,14 @@
         font-size: 40px;
         color: var(--primary-color);
         text-shadow: 0 0 10px rgb(117, 110, 110);
+        border-radius: 100px;
     }
 
     header a{
-        text-decoration:underline;
+        text-decoration: none;
         color: var(--tertiary-color);
+        display: flex;
+        font-weight: lighter;
     }
     header nav {
         margin: 7px 0;
@@ -66,6 +67,40 @@
       color: var(--secondary-color);
       border-radius: 15px;
       text-shadow: none;
+    }
+    /*--ABOUT--*/
+    .about{
+        text-align: center;
+        background: whitesmoke;
+        border-radius: 100px;
+        line-height: 1.5;
+    }
+    .about h2{
+        font-size: 55px;
+        color: var(--secondary-color);
+        margin-bottom: 10px;
+        padding: 0 170px 5px 170px;
+        border-bottom: 3px solid var(--secondary-color);
+        border-color: var(--primary-color);
+        display: inline-block;
+        background-color: whitesmoke;
+        }
+    .about p{
+        color: var(--tertiary-color);
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+        line-height: 1.5;
+        padding: 0 170px 35px 170px;
+    }
+    /*WORK section*/
+    .work{
+
+
+    }
+
+    .contact {
+
     }
     .hero {
 
