@@ -1,7 +1,7 @@
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --tertiary-color: ;
+    --primary-color: antiquewhite;
+    --secondary-color: rgb(187, 179, 179);
+    --tertiary-color: rgb(29, 27, 27);
   }
     * {
       margin: 0;
