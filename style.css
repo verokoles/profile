@@ -5,7 +5,7 @@
   }
     * {
       margin: 0;
-      padding: 0;
+      padding: 50px;
       box-sizing: border-box;
     }
 
@@ -16,7 +16,7 @@
    /*HEADER*/
     header{
         display: flex;
-        padding: 100px 35px 15px 35px;
+        padding: 100px 35px 100px 35px;
         background-color: var(--primary-color);
         display: flex;
         justify-content: left;
@@ -34,10 +34,11 @@
     header h1{
         font-weight: bold;
         margin: 0;
-        font-size: 40px;
+        font-size: 85px;
         color: var(--primary-color);
         text-shadow: 0 0 10px rgb(117, 110, 110);
-        border-radius: 100px;
+        border-radius: 90px;
+        text-align: left;
     }
 
     header a{
@@ -45,6 +46,7 @@
         color: var(--tertiary-color);
         display: flex;
         font-weight: lighter;
+        text-align: bottom;
     }
     header nav {
         margin: 7px 0;
@@ -57,10 +59,12 @@
       list-style: none;
     }
     header nav ul li a {
-        padding: 10px 15px;
+        padding: 75px 15px;
         font-weight: lighter;
         font-size: 1.55vw;
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color: var(--tertiary-color);
+        margin-bottom: 20px;
     }
     header nav ul li a:hover {
       background: var(--primary-color);
@@ -68,12 +72,29 @@
       border-radius: 15px;
       text-shadow: none;
     }
+    section {
+        padding: 100px;
+     }
+    .hero {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        background-attachment: fixed;
+        background-position: 80%;
+      }
     /*--ABOUT--*/
     .about{
         text-align: center;
         background: whitesmoke;
-        border-radius: 100px;
+        border-radius: 750px;
         line-height: 1.5;
+        border-bottom: var(--tertiary-color);
+        overflow: auto;
+        justify-content: space-between;
     }
     .about h2{
         font-size: 55px;
@@ -93,15 +114,68 @@
         line-height: 1.5;
         padding: 0 170px 35px 170px;
     }
+    .about img{
+        width: 100%;
+        overflow: auto;
+        width: 100%;
+    }
     /*WORK section*/
     .work{
-
-
+        text-align: center;
+        background: whitesmoke;
+        border-radius: 750px;
+        line-height: 1.5;
+        border-bottom: var(--tertiary-color);
     }
-
+    .work h2{
+        font-size: 55px;
+        color: var(--secondary-color);
+        margin-bottom: 10px;
+        padding: 0 170px 5px 170px;
+        border-bottom: 3px solid var(--secondary-color);
+        border-color: var(--primary-color);
+        display: inline-block;
+        background-color: whitesmoke;
+    }
+    .work p{
+        color: var(--tertiary-color);
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+        line-height: 1.5;
+        padding: 0 170px 35px 170px;
+    }
+ /*CONTACT SECTION*/
     .contact {
+        text-align: center;
+        background: whitesmoke;
+        border-radius: 750px;
+        line-height: 1.5;
+        border-bottom: var(--tertiary-color);
+    }
+    .contact h2{
+        font-size: 55px;
+        color: var(--secondary-color);
+        margin-bottom: 10px;
+        padding: 0 170px 5px 170px;
+        border-bottom: 3px solid var(--secondary-color);
+        border-color: var(--primary-color);
+        display: inline-block;
+        background-color: whitesmoke;
+    }
+    .contact p{
+        color: var(--tertiary-color);
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+        line-height: 1.5;
+        padding: 0 170px 35px 170px;
 
     }
-    .hero {
-
+    .profile{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
     }
