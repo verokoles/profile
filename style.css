@@ -14,6 +14,11 @@
     body{
         color: var(--secondary-color);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: auto;
+    }
+    main{
+        width: 80vw;
+        margin: auto;
     }
    /*HEADER*/
     header{
@@ -164,6 +169,14 @@
         margin: 0 auto;
         line-height: 1.5;
         padding: 0 170px 35px 170px;
+        align-items: center;
+        justify-content: center;
+    }
+    .work img{
+        justify-content: center;
+        justify-content: space-around space-between;
+        align-items: center;
+
     }
  /*CONTACT SECTION*/
     .contact {
@@ -190,7 +203,11 @@
         margin: 0 auto;
         line-height: 1.5;
         padding: 0 170px 35px 170px;
-
+    }
+    .contact img{
+        justify-items: center;
+        align-items: center;
+        max-width: 30%;
     }
     .profile{
         flex-wrap: wrap;
