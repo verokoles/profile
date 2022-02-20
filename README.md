@@ -27,7 +27,7 @@
 
 <a name="usage"></a>
 ## 3. Usage Tips
-Formatting the cover banner photo, title(my name), and the headers uses <header> tags in HTML as well as <nav>, <ul>, and <li>, allowing the cursor to click on them.  
+Formatting the cover banner photo, title(my name), and the headers uses < header> tags in HTML as well as < nav>, < ul>, and < li>, allowing the cursor to click on them.  
 
 ![Title Cover for my profile](C:\Users\Titov\Desktop\bootcamp-homework\week2-challenge\profile-cover-welcome.png)
 
