@@ -1,5 +1,5 @@
 # VK Profile
- This page introduces me, the developer, in search of expanding my knowledge in web-development and progressing in my career.
+ This page introduces me, the developer, with the goal of expanding my knowledge in web-development and progressing in my career.
 
 ## Purpose
  * Presenting a personal page that can eventually showcase the purpose, goals and previous work as a potential employee in full-time or part-time web development/coding. 
