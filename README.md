@@ -5,11 +5,14 @@
  * Presenting a personal page that can eventually showcase the purpose, goals and previous work as a potential employee in full-time or part-time web development/coding. 
 
  ## Table of Contents:
-1. [ Description ](#desc)
-2. [ Built With ](#built-with)
-3. [ Usage tips ](#usage)
-4. [ Link to my page ](#link-to-my-page)
-5. [ Helpful Links ](#help)
+- [VK Profile](#vk-profile)
+  - [Purpose](#purpose)
+  - [Table of Contents:](#table-of-contents)
+  - [1. Description](#1-description)
+  - [2. Built With](#2-built-with)
+  - [3. Usage Tips](#3-usage-tips)
+  - [4. Link to My Page!](#4-link-to-my-page)
+  - [5. Help Links](#5-help-links)
 
 <a name="desc"></a>
 ## 1. Description
