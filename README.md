@@ -64,7 +64,7 @@ An immense help comes from Chrome DevTools when it comes to changing styles, whi
 <a name="link-to-my-page"></a>
 ## 4. Link to My Page!
 
-To visit the porfolio, go to: [My Profile](https://github.com/verokoles/profile.git) 
+To visit the porfolio, go to: [My Profile](https://verokoles.github.io/profile/) 
 
 <a name="help"></a>
 ## 5. Help Links
